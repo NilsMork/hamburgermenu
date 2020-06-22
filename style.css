@@ -1,0 +1,180 @@
+.menuToggle {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    left: 67px;
+    top: 20px;
+    background-image: url(imgs/hamburger.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+    .main {
+    width: 100%;
+     }
+}
+
+.menu{
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 400px;
+    display: none;
+    position: fixed;
+    left: -40px;
+    top: 80px;
+  }
+
+.menu li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* colors */
+
+.background {
+    background-color: white; 
+}
+
+.reset {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -101;
+    display: none;
+}
+
+.bread {
+    background-color: #FBB670;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    display: none;
+}
+
+.burger {
+    background-color:#855e42;
+    position: fixed;
+    width: 100%;
+    height: 300px;
+    z-index: -90;
+    left: 0;
+    top: 220px;
+    display: none;
+}
+
+.tomato {
+    background-color: tomato;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: -88;
+    left: 0;
+    top: 220px;
+    display: none;
+}
+
+.lettuce {
+    background-color: #a3ca61;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: -87;
+    left: 0;
+    top: 180px;
+    display: none;
+}
+
+.cheese {
+    background-color: #fbcf61;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    z-index: -86;
+    left: 0;
+    top: 170px;
+    display: none;
+}
+
+.salsa {
+    background-color: #e26e22;
+    position: fixed;
+    width: 100%;
+    height: 390px;
+    z-index: -95;
+    left: 0;
+    top: 150px;
+    display: none;
+}
+
+#reset2 {
+    background-color: white;
+    border-radius: 0 10px 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+#bread {
+    background-color: #FBB670;
+    color: #a1601e;
+    border-top:solid 2px white;
+    border-right: solid 3px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#burger {
+    background-color:#855e42;
+    color: #50301a;
+    border-top:solid 2px white;
+    border-right: solid 3px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+#lettuce{
+    background-color: #a3ca61;
+    color: #588806;
+    border-top:solid 2px white;
+    border-right: solid 3px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#tomato{
+    background-color: tomato;
+    color: rgb(206, 44, 15);
+    border-top:solid 2px white;
+    border-right: solid 3px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+#cheese{
+    background-color: #fbcf61;
+    color: #ac8114;
+    border-top:solid 2px white;
+    border-right: solid 3px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+
+}
+
+#salsa{
+    background-color: #e26e22;
+    color: #a04407;
+    border-radius: 0 0 10px 0;
+    border-top: solid 2px white;
+    border-bottom: solid 3px white;
+    border-right: solid 3px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
